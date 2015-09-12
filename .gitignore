@@ -44,3 +44,18 @@ bower.json
 .idea
 # Ignore pow environment settings
 .powenv
+
+
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
